@@ -83,28 +83,38 @@ const ProjectsSection: React.FC = () => {
           )}
         </div>
 
-        {/* Videos Section */}
+        {/* Recent Activity Section */}
         <div className="mt-20 sm:mt-32">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8 sm:mb-16 text-center lg:text-left">
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Videos
+              Recent Activity
             </span>
           </h2>
 
-          {/* Video Grid - Placeholder */}
+          {/* Image Gallery */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-            {[1, 2, 3, 4, 5, 6].map((video) => (
-              <div key={video} className="bg-slate-800/60 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-700/50 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                <div className="aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white/20 rounded-full flex items-center justify-center">
-                    <svg className="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
-                </div>
-                <div className="p-3 sm:p-4">
-                  <h3 className="text-white font-semibold mb-2 text-sm sm:text-base">Video Title {video}</h3>
-                  <p className="text-slate-400 text-xs sm:text-sm">Video description goes here...</p>
+            {[
+              'BS0A0082.jpg',
+              'BS0A1721.jpg',
+              'BS0A2666.jpg',
+              'BS0A2680.jpg',
+              'BS0A2716.jpg',
+              'BS0A2814.jpg',
+              'BS0A2944.jpg',
+              'BS0A3116.jpg',
+              'BS0A3320.JPG',
+            ].map((imageName, index) => (
+              <div
+                key={index}
+                className="bg-slate-800/60 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-700/50 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              >
+                <div className="aspect-video relative">
+                  <Image
+                    src={`/assets/images/recent-activity/${imageName}`}
+                    alt={`Recent Activity ${index + 1}`}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </div>
             ))}
