@@ -50,7 +50,7 @@ const JoinPage: React.FC = () => {
                   isVisible('stat-1') ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                 }`}
               >
-                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-200 mb-1 sm:mb-2">4</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-200 mb-1 sm:mb-2">12</div>
                 <div className="text-slate-400 text-xs sm:text-sm uppercase tracking-wide">Teams</div>
               </div>
               <div
@@ -59,7 +59,7 @@ const JoinPage: React.FC = () => {
                   isVisible('stat-2') ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                 }`}
               >
-                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-200 mb-1 sm:mb-2">50+</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-200 mb-1 sm:mb-2">100+</div>
                 <div className="text-slate-400 text-xs sm:text-sm uppercase tracking-wide">Members</div>
               </div>
               <div
@@ -142,7 +142,7 @@ const JoinPage: React.FC = () => {
           </div>
 
           {/* Teams Section */}
-          <div className="mb-12 sm:mb-16">
+          {/* <div className="mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 sm:mb-8 text-center">Available Teams</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               {[
@@ -167,7 +167,7 @@ const JoinPage: React.FC = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Contact Section */}
           <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 lg:p-12 text-center border border-slate-700/50 shadow-2xl">
@@ -184,8 +184,8 @@ const JoinPage: React.FC = () => {
                 Email Us
               </a>
               <div className="text-slate-300">
-                <p className="font-medium text-sm sm:text-base">Weekly Meetings</p>
-                <p className="text-xs sm:text-sm">Thursdays 6pm, Engineering Building</p>
+                <p className="font-medium text-sm sm:text-base">Weekly Working Bee</p>
+                <p className="text-xs sm:text-sm">Wednesdays 5pm, Engineering Building, E108</p>
               </div>
             </div>
           </div>
