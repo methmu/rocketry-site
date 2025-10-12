@@ -5,11 +5,10 @@ export interface Vehicle {
   status: 'active' | 'retired' | 'development' | 'testing';
   year: number;
   specifications: {
-    height?: string;
-    diameter?: string;
-    mass?: string;
-    thrust?: string;
     apogee?: string;
+    maxVelocity?: string;
+    maxAcceleration?: string;
+    flightTime?: string;
   };
   image?: string;
   slug: string;
@@ -23,11 +22,10 @@ export const vehicles: Vehicle[] = [
     status: 'active',
     year: 2025,
     specifications: {
-      height: 'TBD',
-      diameter: 'TBD',
-      mass: 'TBD',
-      thrust: 'TBD',
-      apogee: 'TBD'
+      apogee: '1107',
+      maxVelocity: '164',
+      maxAcceleration: '198',
+      flightTime: '176'
     },
     image: '/assets/images/vehicles/solstice.png',
     slug: 'solstice'
@@ -39,11 +37,10 @@ export const vehicles: Vehicle[] = [
     status: 'active',
     year: 2024,
     specifications: {
-      height: 'TBD',
-      diameter: 'TBD',
-      mass: 'TBD',
-      thrust: 'TBD',
-      apogee: 'TBD'
+      apogee: 'TBD',
+      maxVelocity: 'TBD',
+      maxAcceleration: 'TBD',
+      flightTime: 'TBD'
     },
     image: '/assets/images/vehicles/garawana.png',
     slug: 'garawana'
@@ -55,11 +52,10 @@ export const vehicles: Vehicle[] = [
     status: 'testing',
     year: 2023,
     specifications: {
-      height: 'TBD',
-      diameter: 'TBD',
-      mass: 'TBD',
-      thrust: 'TBD',
-      apogee: 'TBD'
+      apogee: 'TBD',
+      maxVelocity: 'TBD',
+      maxAcceleration: 'TBD',
+      flightTime: 'TBD'
     },
     image: '/assets/images/vehicles/stratus.png',
     slug: 'stratus'
@@ -71,11 +67,10 @@ export const vehicles: Vehicle[] = [
     status: 'development',
     year: 2020,
     specifications: {
-      height: 'TBD',
-      diameter: 'TBD',
-      mass: 'TBD',
-      thrust: 'TBD',
-      apogee: 'TBD'
+      apogee: 'TBD',
+      maxVelocity: 'TBD',
+      maxAcceleration: 'TBD',
+      flightTime: 'TBD'
     },
     image: '/assets/images/vehicles/halo.png',
     slug: 'halo'
@@ -87,11 +82,10 @@ export const vehicles: Vehicle[] = [
     status: 'development',
     year: 2023,
     specifications: {
-      height: 'TBD',
-      diameter: 'TBD',
-      mass: 'TBD',
-      thrust: 'TBD',
-      apogee: 'TBD'
+      apogee: 'TBD',
+      maxVelocity: 'TBD',
+      maxAcceleration: 'TBD',
+      flightTime: 'TBD'
     },
     image: '/assets/images/vehicles/dyurra.png',
     slug: 'dyurra'

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { vehicles, Vehicle } from '@/data/vehicles-data';
 import { Rocket } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const VehiclesPage: React.FC = () => {
   const [visibleItems, setVisibleItems] = useState<string[]>([]);
@@ -48,37 +49,39 @@ const VehiclesPage: React.FC = () => {
   const isVisible = (id: string) => visibleItems.includes(id);
 
   const VehicleCard: React.FC<{ vehicle: Vehicle; index: number }> = ({ vehicle }) => (
-    <div
-      id={vehicle.id}
-      key={vehicle.id}
-      className={`vehicle-card bg-slate-800/60 backdrop-blur-sm rounded-2xl shadow-lg overflow-hidden transition-all duration-700 transform hover:shadow-2xl hover:-translate-y-2 border border-slate-700/50 ${
-        isVisible(vehicle.id) || isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-      }`}
-    >
-      {/* Vehicle Image/Mission Patch */}
-      <div className="h-48 sm:h-56 lg:h-64 overflow-hidden bg-slate-900/40 flex items-center justify-center">
-        {vehicle.image ? (
-          <Image
-            src={vehicle.image}
-            alt={`${vehicle.name} Mission Patch`}
-            width={256}
-            height={256}
-            className="w-full h-full object-contain p-6 transition-transform duration-500 hover:scale-110"
-          />
-        ) : (
-          <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex items-center justify-center">
-            <Rocket className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 text-slate-400 transition-transform duration-500 hover:scale-110" />
-          </div>
-        )}
-      </div>
+    <Link href={`/vehicles/${vehicle.slug}`}>
+      <div
+        id={vehicle.id}
+        key={vehicle.id}
+        className={`vehicle-card bg-slate-800/60 backdrop-blur-sm rounded-2xl shadow-lg overflow-hidden transition-all duration-700 transform hover:shadow-2xl hover:-translate-y-2 border border-slate-700/50 cursor-pointer ${
+          isVisible(vehicle.id) || isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+        }`}
+      >
+        {/* Vehicle Image/Mission Patch */}
+        <div className="h-48 sm:h-56 lg:h-64 overflow-hidden bg-slate-900/40 flex items-center justify-center">
+          {vehicle.image ? (
+            <Image
+              src={vehicle.image}
+              alt={`${vehicle.name} Mission Patch`}
+              width={256}
+              height={256}
+              className="w-full h-full object-contain p-6 transition-transform duration-500 hover:scale-110"
+            />
+          ) : (
+            <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex items-center justify-center">
+              <Rocket className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 text-slate-400 transition-transform duration-500 hover:scale-110" />
+            </div>
+          )}
+        </div>
 
-      {/* Vehicle Name */}
-      <div className="p-4 sm:p-6">
-        <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-white text-center">
-          {vehicle.name}
-        </h3>
+        {/* Vehicle Name */}
+        <div className="p-4 sm:p-6">
+          <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-white text-center">
+            {vehicle.name}
+          </h3>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 
   return (
