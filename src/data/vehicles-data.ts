@@ -37,22 +37,6 @@ export const vehicles: Vehicle[] = [
     name: 'Garawana',
     description: 'An advanced rocket system featuring cutting-edge propulsion technology and innovative design.',
     status: 'active',
-    year: 2023,
-    specifications: {
-      height: 'TBD',
-      diameter: 'TBD',
-      mass: 'TBD',
-      thrust: 'TBD',
-      apogee: 'TBD'
-    },
-    image: '/assets/images/no-signal.jpg',
-    slug: 'garawana'
-  },
-  {
-    id: 'vibe-voyager',
-    name: 'Vibe Voyager',
-    description: 'A versatile launch platform designed for experimental payloads and atmospheric research missions.',
-    status: 'testing',
     year: 2024,
     specifications: {
       height: 'TBD',
@@ -61,8 +45,24 @@ export const vehicles: Vehicle[] = [
       thrust: 'TBD',
       apogee: 'TBD'
     },
-    image: '/assets/images/no-signal.jpg',
-    slug: 'vibe-voyager'
+    image: '/assets/images/vehicles/garawana.png',
+    slug: 'garawana'
+  },
+  {
+    id: 'stratus',
+    name: 'Stratus',
+    description: 'A versatile launch platform designed for experimental payloads and atmospheric research missions.',
+    status: 'testing',
+    year: 2023,
+    specifications: {
+      height: 'TBD',
+      diameter: 'TBD',
+      mass: 'TBD',
+      thrust: 'TBD',
+      apogee: 'TBD'
+    },
+    image: '/assets/images/vehicles/stratus.png',
+    slug: 'stratus'
   },
   {
     id: 'halo',
@@ -83,9 +83,9 @@ export const vehicles: Vehicle[] = [
   {
     id: 'dyurra',
     name: 'Dyurra',
-    description: 'TBD',
+    description: 'A pioneering experimental rocket designed for testing new propulsion systems and flight control mechanisms.',
     status: 'development',
-    year: 2024,
+    year: 2023,
     specifications: {
       height: 'TBD',
       diameter: 'TBD',
@@ -93,7 +93,7 @@ export const vehicles: Vehicle[] = [
       thrust: 'TBD',
       apogee: 'TBD'
     },
-    image: '/assets/images/no-signal.jpg',
+    image: '/assets/images/vehicles/dyurra.png',
     slug: 'dyurra'
   }
 ];

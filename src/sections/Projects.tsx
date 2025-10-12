@@ -25,21 +25,23 @@ const ProjectsSection: React.FC = () => {
                   {/* Project Image */}
                   <div className="flex justify-center lg:justify-start order-1 lg:order-none">
                     <div className="relative w-60 h-60 sm:w-80 sm:h-80 md:w-96 md:h-96">
-                      <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-xl overflow-hidden">
+                      <div className="w-full h-full rounded-2xl flex items-center justify-center shadow-xl overflow-hidden">
                         {vehicle.image ? (
                           <div className="relative w-full h-full">
                             <Image
                               src={vehicle.image}
                               alt={`${vehicle.name} Vehicle`}
                               fill
-                              className="object-cover rounded-2xl"
+                              className="object-contain rounded-2xl"
                             />
                           </div>
                         ) : (
-                          <Rocket
-                            size={100}
-                            className="text-white transform rotate-45 sm:w-[120px] sm:h-[120px]"
-                          />
+                          <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
+                            <Rocket
+                              size={100}
+                              className="text-white transform rotate-45 sm:w-[120px] sm:h-[120px]"
+                            />
+                          </div>
                         )}
                       </div>
 
@@ -64,7 +66,7 @@ const ProjectsSection: React.FC = () => {
                     </p>
 
                     <Link
-                      href={`/vehicles/${vehicle.slug}`}
+                      href="/vehicles"
                       className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm sm:text-base"
                     >
                       Click to Learn More
