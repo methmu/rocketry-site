@@ -193,29 +193,6 @@ const VehicleDetailPage: React.FC<VehiclePageProps> = ({ params }) => {
               description="Total flight time (s)"
             />
           </div>
-
-          {/* Placeholder sections for future content */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Mission History */}
-            <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-slate-700/50">
-              <h3 className="text-2xl font-bold text-white mb-6">Mission History</h3>
-              <div className="space-y-4">
-                <div className="p-4 bg-slate-700/30 rounded-xl">
-                  <p className="text-slate-300">Mission data and flight history will be displayed here once available.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Design Features */}
-            <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-slate-700/50">
-              <h3 className="text-2xl font-bold text-white mb-6">Design Features</h3>
-              <div className="space-y-4">
-                <div className="p-4 bg-slate-700/30 rounded-xl">
-                  <p className="text-slate-300">Detailed design features and innovations will be showcased here.</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
