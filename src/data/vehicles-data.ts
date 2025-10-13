@@ -37,10 +37,10 @@ export const vehicles: Vehicle[] = [
     status: 'active',
     year: 2024,
     specifications: {
-      apogee: 'TBD',
-      maxVelocity: 'TBD',
-      maxAcceleration: 'TBD',
-      flightTime: 'TBD'
+      apogee: '8189',
+      maxVelocity: '653',
+      maxAcceleration: '238',
+      flightTime: '331'
     },
     image: '/assets/images/vehicles/garawana.png',
     slug: 'garawana'
@@ -52,10 +52,10 @@ export const vehicles: Vehicle[] = [
     status: 'testing',
     year: 2023,
     specifications: {
-      apogee: 'TBD',
-      maxVelocity: 'TBD',
-      maxAcceleration: 'TBD',
-      flightTime: 'TBD'
+      apogee: '895',
+      maxVelocity: '143',
+      maxAcceleration: '100',
+      flightTime: '81.6'
     },
     image: '/assets/images/vehicles/stratus.png',
     slug: 'stratus'
@@ -67,10 +67,10 @@ export const vehicles: Vehicle[] = [
     status: 'development',
     year: 2020,
     specifications: {
-      apogee: 'TBD',
-      maxVelocity: 'TBD',
-      maxAcceleration: 'TBD',
-      flightTime: 'TBD'
+      apogee: '3414',
+      maxVelocity: '316',
+      maxAcceleration: '109',
+      flightTime: '244'
     },
     image: '/assets/images/vehicles/halo.png',
     slug: 'halo'
@@ -82,10 +82,10 @@ export const vehicles: Vehicle[] = [
     status: 'development',
     year: 2023,
     specifications: {
-      apogee: 'TBD',
-      maxVelocity: 'TBD',
-      maxAcceleration: 'TBD',
-      flightTime: 'TBD'
+      apogee: '3380',
+      maxVelocity: '315',
+      maxAcceleration: '170',
+      flightTime: '276'
     },
     image: '/assets/images/vehicles/dyurra.png',
     slug: 'dyurra'
