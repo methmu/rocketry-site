@@ -107,7 +107,7 @@ const VehiclesPage: React.FC = () => {
       <section className="py-12 sm:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
-            {vehicles.map((vehicle, index) => (
+            {[...vehicles].sort((a, b) => b.year - a.year).map((vehicle, index) => (
               <VehicleCard key={vehicle.id} vehicle={vehicle} index={index} />
             ))}
           </div>
