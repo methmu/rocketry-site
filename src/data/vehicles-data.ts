@@ -34,7 +34,7 @@ export const vehicles: Vehicle[] = [
     id: 'garawana',
     name: 'Garawana',
     description: 'An advanced rocket system featuring cutting-edge propulsion technology and innovative design.',
-    status: 'active',
+    status: 'retired',
     year: 2024,
     specifications: {
       apogee: '8189',
@@ -49,7 +49,7 @@ export const vehicles: Vehicle[] = [
     id: 'stratus',
     name: 'Stratus',
     description: 'A versatile launch platform designed for experimental payloads and atmospheric research missions.',
-    status: 'testing',
+    status: 'retired',
     year: 2023,
     specifications: {
       apogee: '895',
@@ -64,7 +64,7 @@ export const vehicles: Vehicle[] = [
     id: 'halo',
     name: 'Halo',
     description: 'A compact and efficient rocket designed for rapid deployment and precise trajectory control.',
-    status: 'development',
+    status: 'retired',
     year: 2020,
     specifications: {
       apogee: '3414',
@@ -79,7 +79,7 @@ export const vehicles: Vehicle[] = [
     id: 'dyurra',
     name: 'Dyurra',
     description: 'A pioneering experimental rocket designed for testing new propulsion systems and flight control mechanisms.',
-    status: 'development',
+    status: 'retired',
     year: 2023,
     specifications: {
       apogee: '3380',
