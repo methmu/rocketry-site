@@ -48,7 +48,7 @@ const TeamsPage: React.FC = () => {
             <div className="w-16 sm:w-24 h-1 bg-slate-400 mx-auto mb-6 sm:mb-8"></div>
             <p className="text-base sm:text-lg lg:text-xl text-slate-300 leading-relaxed max-w-3xl mx-auto mb-8 sm:mb-12 px-4">
               ANU Rocketry brings together passionate students from diverse disciplines to design,
-              build, and launch experimental rockets. Our specialized teams work collaboratively
+              build, and launch experimental rockets. Our specialised teams work collaboratively
               to push the boundaries of student aerospace engineering.
             </p>
 
@@ -61,7 +61,7 @@ const TeamsPage: React.FC = () => {
                 }`}
               >
                 <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-200 mb-1 sm:mb-2">{sortedTeams.length}</div>
-                <div className="text-slate-400 text-xs sm:text-sm uppercase tracking-wide">Specialized Teams</div>
+                <div className="text-slate-400 text-xs sm:text-sm uppercase tracking-wide">Specialised Teams</div>
               </div>
               <div
                 id="stat-2"
@@ -100,7 +100,7 @@ const TeamsPage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4">
-              Meet Our Specialized Teams
+              Meet Our Specialised Teams
             </h2>
             <div className="w-12 sm:w-16 h-1 bg-blue-400 mx-auto mb-4 sm:mb-6"></div>
             <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto px-4">

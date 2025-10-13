@@ -154,7 +154,7 @@ const PartnersPage: React.FC = () => {
             </h2>
             <div className="w-16 h-1 bg-blue-400 mx-auto mb-6"></div>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              We work with incredible organizations that share our passion for aerospace innovation and education.
+              We work with incredible organisations that share our passion for aerospace innovation and education.
             </p>
           </div>
 

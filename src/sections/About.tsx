@@ -38,7 +38,7 @@ const AboutSection: React.FC = () => {
           <h2 className="text-3xl md:text-5xl font-bold text-blue-900 mb-4">About ANU Rocketry</h2>
           <div className="w-20 h-1 bg-blue-700 mx-auto mb-6"></div>
           <p className="max-w-3xl mx-auto text-lg text-slate-700">
-            ANU Rocketry is a student-led organization dedicated to advancing aerospace engineering 
+            ANU Rocketry is a student-led organisation dedicated to advancing aerospace engineering 
             through hands-on learning, innovative design, and practical application. We bring together 
             passionate students from diverse disciplines to push the boundaries of what&apos;s possible.
           </p>
@@ -81,7 +81,7 @@ const AboutSection: React.FC = () => {
                 <h3 className="text-2xl font-bold text-slate-900">Our Vision</h3>
               </div>
               <p className="text-slate-700 text-lg leading-relaxed">
-                To be recognized as a leading student rocketry organization that bridges the gap 
+                To be recognised as a leading student rocketry organisation that bridges the gap 
                 between theoretical knowledge and real-world aerospace applications, preparing 
                 the next generation of aerospace professionals.
               </p>
@@ -152,9 +152,9 @@ const AboutSection: React.FC = () => {
           }`}
         >
           <div className="bg-gradient-to-r from-blue-900 to-blue-700 rounded-2xl p-8 md:p-12 text-white text-center">
-            <h3 className="text-2xl md:text-3xl font-bold mb-4">Meet Our Specialized Teams</h3>
+            <h3 className="text-2xl md:text-3xl font-bold mb-4">Meet Our Specialised Teams</h3>
             <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-              Our success comes from the dedication and expertise of our eight specialized teams, 
+              Our success comes from the dedication and expertise of our eight specialised teams, 
               each focusing on critical aspects of rocket development and operations.
             </p>
             <Link 
@@ -171,7 +171,7 @@ const AboutSection: React.FC = () => {
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-blue-900 mb-4">What We Offer Sponsors</h3>
               <p className="text-slate-700 mb-6">
-                Partnering with ANU Rocketry offers your organization unique opportunities for 
+                Partnering with ANU Rocketry offers your organisation unique opportunities for 
                 brand visibility, talent recruitment, and technological innovation in the aerospace sector.
               </p>
               <ul className="space-y-4">

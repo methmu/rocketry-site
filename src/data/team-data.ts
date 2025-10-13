@@ -10,9 +10,9 @@ export const teams: Team[] = [
   {
     id: 'aerostructures',
     name: 'Aerostructures',
-    description: 'Optimizing the rocket\'s flight characteristics through computational fluid dynamics and wind tunnel testing.',
+    description: 'Optimising the rocket\'s flight characteristics through computational fluid dynamics and wind tunnel testing.',
     responsibilities: [
-      'Airframe design and optimization',
+      'Airframe design and optimisation',
       'Computational fluid dynamics (CFD) analysis',
       'Wind tunnel testing and validation',
       'Flight stability analysis'
@@ -82,7 +82,7 @@ export const teams: Team[] = [
   {
     id: 'logistics',
     name: 'Logistics',
-    description: 'Planning and executing team fieldwork, coordinating equiptment, food,transport, and safety  to ensure smooth execution of team projects.',
+    description: 'Planning and executing team fieldwork, coordinating equipment, food, transport, and safety to ensure smooth execution of team projects.',
     responsibilities: [
       'Engages with a range of organisations to meet team fieldwork objectives',
       'Supervises large groups during regional testing',
@@ -119,7 +119,7 @@ export const teams: Team[] = [
     name: 'Propulsion',
     description: 'Developing and testing innovative propulsion systems to achieve greater altitudes and improved performance.',
     responsibilities: [
-      'Engine design and optimization',
+      'Engine design and optimisation',
       'Fuel research and development',
       'Static fire testing',
       'Performance analysis and improvement'
@@ -134,7 +134,7 @@ export const teams: Team[] = [
       'Parachute design and deployment systems',
       'Descent rate calculations',
       'Impact mitigation strategies',
-      'Reusability optimization'
+      'Reusability optimisation'
     ],
     image: '/assets/images/no-signal.jpg'
   },
