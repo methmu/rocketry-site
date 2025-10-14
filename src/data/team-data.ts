@@ -29,7 +29,7 @@ export const teams: Team[] = [
       'Sensor integration and data collection',
       'Recovery system electronics'
     ],
-    image: '/assets/images/no-signal.jpg'
+    image: '/assets/images/team-pics/avionics.jpg'
   },
   {
     id: 'budget-inventory',
@@ -41,7 +41,7 @@ export const teams: Team[] = [
       'Inventory management',
       'Purchase coordination'
     ],
-    image: '/assets/images/no-signal.jpg'
+    image: '/assets/images/team-pics/budget-inventory.webp'
   },
   {
     id: 'certifications',
@@ -53,7 +53,7 @@ export const teams: Team[] = [
       'Quality assurance',
       'Regulatory submissions'
     ],
-    image: '/assets/images/no-signal.jpg'
+    image: '/assets/images/team-pics/certifications.jpg'
   },
   {
     id: 'dynamics-control',
@@ -136,7 +136,7 @@ export const teams: Team[] = [
       'Impact mitigation strategies',
       'Reusability optimisation'
     ],
-    image: '/assets/images/no-signal.jpg'
+    image: '/assets/images/team-pics/recovery.jpg'
   },
   {
     id: 'safety-legal',
