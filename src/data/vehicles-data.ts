@@ -32,7 +32,7 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: 'garawana',
-    name: 'Garawana',
+    name: 'Garawaƞa',
     description: 'An advanced rocket system featuring cutting-edge propulsion technology and innovative design.',
     status: 'retired',
     year: 2024,

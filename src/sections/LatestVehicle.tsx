@@ -62,7 +62,7 @@ const LatestVehicleSection: React.FC = () => {
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
                   Project
                   <br />
-                  <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-300 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-300 bg-clip-text text-transparent inline-block pb-2">
                     {primaryVehicle.name.toUpperCase()}
                   </span>
                 </h2>
