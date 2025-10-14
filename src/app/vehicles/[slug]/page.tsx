@@ -4,7 +4,7 @@ import React from 'react';
 import { vehicles, getVehicleBySlug, Vehicle } from '@/data/vehicles-data';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Calendar, Activity, TrendingUp, Zap, Gauge, Clock, Rocket } from 'lucide-react';
+import { ArrowLeft, Calendar, TrendingUp, Zap, Gauge, Clock, Rocket } from 'lucide-react';
 
 interface VehiclePageProps {
   params: Promise<{
