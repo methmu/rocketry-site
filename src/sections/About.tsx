@@ -100,7 +100,7 @@ const AboutSection: React.FC = () => {
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="w-8 h-8 text-blue-600" />
             </div>
-            <div className="text-3xl font-bold text-blue-900 mb-2">50+</div>
+            <div className="text-3xl font-bold text-blue-900 mb-2">100+</div>
             <div className="text-slate-600 text-sm uppercase tracking-wide">Active Members</div>
           </div>
           

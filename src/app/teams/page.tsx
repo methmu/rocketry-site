@@ -69,7 +69,7 @@ const TeamsPage: React.FC = () => {
                   isVisible('stat-2') ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                 }`}
               >
-                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-200 mb-1 sm:mb-2">50+</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-200 mb-1 sm:mb-2">100+</div>
                 <div className="text-slate-400 text-xs sm:text-sm uppercase tracking-wide">Active Members</div>
               </div>
               <div
