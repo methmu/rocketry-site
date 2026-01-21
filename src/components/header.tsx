@@ -38,7 +38,7 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-colors duration-500 ${
         scrolled || !isTransparentPage
-          ? "bg-[#1f304f] shadow-md text-gray-800 backdrop-blur"
+          ? "bg-[#1f304f] shadow-md backdrop-blur text-white"
           : "bg-transparent text-white"
       }`}
     >
@@ -58,7 +58,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className={`hidden md:flex flex-row items-center space-x-4 ${isTransparentPage ? 'text-white' : 'text-gray-800'}`}>
+          <div className={`hidden md:flex flex-row items-center space-x-4 ${isTransparentPage ? 'text-white' : 'text-white'}`}>
             {headerLinks.map((content) => (
               <HeaderLink key={content} linkContent={content} />
             ))}
@@ -67,7 +67,7 @@ export default function Header() {
           {/* Mobile Navigation Toggle */}
           <button
             onClick={toggleMenu}
-            className={`md:hidden cursor-pointer p-2 ${isTransparentPage ? 'text-white' : 'text-gray-800'}`}
+            className={`md:hidden cursor-pointer p-2 ${isTransparentPage ? 'text-white' : 'text-white'}`}
           >
             {
               isMenuOpen ? (

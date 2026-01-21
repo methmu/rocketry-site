@@ -178,10 +178,10 @@ const JoinPage: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
               <a
-                href="mailto:rocketry@anu.edu.au"
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=XHJ941yrJEaa5fBTPkhkN2z_fxkFOe1NmZr2o_vmACVUMzU4T0ZMVzk5R01USVdJS0IzVDI4OEg1SSQlQCN0PWcu"
                 className="bg-white text-slate-900 px-6 py-2 sm:px-8 sm:py-3 rounded-lg font-semibold hover:bg-slate-100 transition-colors duration-200 text-sm sm:text-base"
               >
-                Email Us
+	      	Join Now
               </a>
               <div className="text-slate-300">
                 <p className="font-medium text-sm sm:text-base">Weekly Working Bee</p>
