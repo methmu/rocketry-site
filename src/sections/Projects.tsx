@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { Rocket } from 'lucide-react';
 import { vehicles } from '@/data/vehicles-data';
 import FooterConnectIcon from '@/components/footer-icon';
+import NewsletterSection from './Newsletter';
 
 const ProjectsSection: React.FC = () => {
   // Get vehicles sorted by year (descending), then take vehicles 2 and 3 (skip first 1)
@@ -122,6 +123,8 @@ const ProjectsSection: React.FC = () => {
             ))}
           </div>
         </div>
+
+        <NewsletterSection/>
 
         {/* Footer Section */}
         <div className="mt-20 sm:mt-32 pt-12 sm:pt-16 border-t border-slate-700/50">
