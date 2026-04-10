@@ -28,7 +28,7 @@ const NewsletterSection: React.FC = () => {
               </a>
             </div>
 
-            <div className="relative flex items-center justify-center">
+            {/* <div className="relative flex items-center justify-center">
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-500/20 via-purple-500/15 to-slate-700/30 blur-2xl" />
               <div className="relative rounded-3xl border border-white/10 bg-slate-950/70 p-6 sm:p-8 shadow-2xl overflow-hidden">
                 <div className="rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border border-slate-700/60 flex items-center justify-center">
@@ -37,7 +37,7 @@ const NewsletterSection: React.FC = () => {
                   </svg>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
