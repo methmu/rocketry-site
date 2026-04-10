@@ -67,7 +67,7 @@ export const vehicles: Vehicle[] = [
   {
     id: 'halo',
     name: 'Halo',
-    description: 'Project Halo was an entirely scratch-built, L3 motor-capable vehicle constructed as a team. It featured in-house composites, with a fibreglass body tube and nose cone alongside handmade carbon fibre fins, aluminium bulkheads, nosecone tip and thrust plate, all machined by our members. Halo also featured a set of camera fins, an altimeter and GPS payload and fully redundant, dual-deploy electronics.',
+    description: 'A fully scratch-built, L3-capable rocket and a showcase of in-house craftsmanship, from hand-laid composites to member-machined aluminium, with redundant electronics throughout.',
     longDescription: 'Project Halo was an entirely scratch-built, L3 motor-capable vehicle constructed as a team. It featured in-house composites, with a fibreglass body tube and nose cone alongside handmade carbon fibre fins, aluminium bulkheads, nosecone tip and thrust plate, all machined by our members. Halo also featured a set of camera fins, an altimeter and GPS payload and fully redundant, dual-deploy electronics.',
     status: 'retired',
     year: 2020,
