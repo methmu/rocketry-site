@@ -154,6 +154,25 @@ const VehicleDetailPage: React.FC<VehiclePageProps> = ({ params }) => {
         </div>
       </section>
 
+      {/* Long Description Section */}
+      {vehicle.longDescription && (
+        <section className="py-20 border-t border-slate-700/50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                About {vehicle.name}
+              </h2>
+              <div className="w-16 h-1 bg-blue-400 mb-8"></div>
+              <div className="text-lg text-slate-300 leading-relaxed space-y-6">
+                {vehicle.longDescription.split('\n\n').map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Specifications Section */}
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
